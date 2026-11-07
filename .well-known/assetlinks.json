@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "tipo.seb.ecos",
+      "sha256_cert_fingerprints": [
+        "7B:E9:2C:68:11:3B:87:6F:2D:98:1D:1D:4E:62:D4:0B:12:FA:89:2D:81:AD:C4:8E:A7:4B:DD:E3:FE:E9:E7:23"
+      ]
+    }
+  }
+]
