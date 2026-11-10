@@ -4,8 +4,36 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
+<meta name="theme-color" content="#EBE0CA">
 <title>Ecos</title>
-<style>html,body{margin:0;height:100%;background:#EBE0CA;color:#2E2622}body{display:flex;align-items:center;justify-content:center;font:500 20px/1.4 Georgia,serif;letter-spacing:.02em}</style>
+<style>
+@font-face{font-family:Lora;font-weight:500;src:url(/fonts/lora_medium.ttf) format("truetype")}
+@font-face{font-family:"DM Sans";font-weight:400;src:url(/fonts/dmsans_regular.ttf) format("truetype")}
+@font-face{font-family:"DM Sans";font-weight:500;src:url(/fonts/dmsans_medium.ttf) format("truetype")}
+:root{--ink:#2E2622;--cream:#FBF4EC;--base:#EBE0CA}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:var(--base);color:var(--ink)}
+body{min-height:100vh;min-height:100dvh;display:flex;flex-direction:column;align-items:center;
+justify-content:center;padding:48px 28px;font:400 15px/1.5 "DM Sans",system-ui,sans-serif;
+background:radial-gradient(60vmax 60vmax at 15% 13%,#F5E6BE 0,transparent 70%),
+radial-gradient(55vmax 55vmax at 97% 55%,#E3C9A8 0,transparent 70%),
+radial-gradient(60vmax 60vmax at 19% 96%,#D8DCC6 0,transparent 70%),var(--base)}
+.logo{width:76px;height:76px;margin-bottom:22px}
+h1{margin:0 0 44px;font:500 40px/1 Lora,Georgia,serif;letter-spacing:.01em}
+.play{display:block;width:100%;max-width:300px;padding:16px 20px;border-radius:999px;text-align:center;
+background:var(--ink);color:var(--cream);font-weight:500;font-size:16px;text-decoration:none}
+.backup{margin-top:28px;max-width:300px;text-align:center;font-size:13px;opacity:.8}
+.backup a{color:inherit;font-weight:500}
+.backup p{margin:6px 0 0}
+</style>
 </head>
-<body>Ecos</body>
+<body>
+<svg class="logo" viewBox="26 26 56 56" aria-hidden="true" fill="none" stroke="#2E2622" stroke-width="1.1"><path d="M27.000,54.000a27.000,27.000 0 1,0 54.000,0a27.000,27.000 0 1,0 -54.000,0z"/><path d="M33.265,54.174a23.872,23.872 0 1,0 47.745,0a23.872,23.872 0 1,0 -47.745,0z"/><path d="M39.240,54.598a20.880,20.880 0 1,0 41.760,0a20.880,20.880 0 1,0 -41.760,0z"/><path d="M45.196,54.898a17.907,17.907 0 1,0 35.813,0a17.907,17.907 0 1,0 -35.813,0z"/><path d="M51.172,56.095a14.914,14.914 0 1,0 29.828,0a14.914,14.914 0 1,0 -29.828,0z"/></svg>
+<h1>Ecos</h1>
+<a class="play" href="https://play.google.com/apps/internaltest/4701592869897704033">Instalar desde Google Play</a>
+<div class="backup">
+<a href="https://ThiCa.quickconnect.to/d/f/1Aditl4cxfFnvt05BVEGy1oOW3qNTrC0">Descarga directa (copia de seguridad)</a>
+<p>Para instalarla, el teléfono te pedirá permitir instalaciones desde esa fuente.</p>
+</div>
+</body>
 </html>
